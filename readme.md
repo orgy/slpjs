@@ -64,7 +64,7 @@ let bitdb = require('slpjs').bitdb
 let BigNumber = require('bignumber.js')
 
 let BITDB_KEY                = "qrg3fvfue463rc5genp2kyrj4mg6g2lpxst0y4wamw"; // <-- visit http://bitdb.network for your key
-let fundingAddress           = "simpleledger:qz9tzs6d5097ejpg279rg0rnlhz546q4fsnck9wh5m"; // <-- must be bitcoincash format
+let fundingAddress           = "simpleledger:qz9tzs6d5097ejpg279rg0rnlhz546q4fsnck9wh5m"; // <-- must be simpleledger format
 let fundingWif               = "L44gh9WaAwhrQnRowTFFumHQ99TSuastDNErm3TYqbu3SxwcbunG"; // <-- compressed WIF format
 let tokenReceiverAddress     = "simpleledger:qr8fxllmjeupamay8c8k6x3fvp2w2hp08yh6k4x5dz"; // <-- must be simpleledger format
 let bchChangeReceiverAddress = "simpleledger:qz9tzs6d5097ejpg279rg0rnlhz546q4fsnck9wh5m"; // <-- simpleledger or bitcoincash format
